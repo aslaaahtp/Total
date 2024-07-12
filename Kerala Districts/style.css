@@ -1,0 +1,18 @@
+body{
+    /* background-image: url("https://i0.wp.com/picflick.co.za/wp-content/uploads/2020/06/F133D4B2-3F70-480E-B830-13DE026FE327.jpeg?resize=2048%2C1365&ssl=1"); */
+    /* filter: blur(8px); */
+    /* -web
+    .sepkit-filter: blur(8px); */
+}
+.sep{
+    padding: 20px;
+}
+.districts{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

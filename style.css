@@ -1,0 +1,38 @@
+*{
+    border: 0px;
+}
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_1280.jpg");
+}
+.box{
+    /* border: black solid 2px; */
+    /* height: 200px; */
+    display: flex;
+    width: 400px;
+    justify-content:space-between;
+
+    align-items: center;
+}
+.box h1 b {
+    font-weight: bold;
+    color: #FF0000; /* Change to your desired color */
+}
+.hobbies{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.hbs{
+    display: flex;
+    width: 700px;
+    justify-content:space-between;
+}
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+.dp{
+    border-radius: 100px;
+}
+.myname{
+    color: rgb(51, 249, 6);
+}
