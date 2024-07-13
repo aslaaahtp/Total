@@ -1,38 +1,18 @@
-*{
-    border: 0px;
+body{
+    /* background-image: url("https://i0.wp.com/picflick.co.za/wp-content/uploads/2020/06/F133D4B2-3F70-480E-B830-13DE026FE327.jpeg?resize=2048%2C1365&ssl=1"); */
+    /* filter: blur(8px); */
+    /* -web
+    .sepkit-filter: blur(8px); */
 }
-body {
-    background-image: url("https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_1280.jpg");
+.sep{
+    padding: 20px;
 }
-.box{
-    /* border: black solid 2px; */
-    /* height: 200px; */
+.districts{
     display: flex;
-    width: 400px;
-    justify-content:space-between;
-
-    align-items: center;
+    justify-content: space-around;
 }
-.box h1 b {
-    font-weight: bold;
-    color: #FF0000; /* Change to your desired color */
-}
-.hobbies{
+.title{
     display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.hbs{
-    display: flex;
-    width: 700px;
-    justify-content:space-between;
-}
-hr.solid {
-    border-top: 1px solid #bbb;
-}
-.dp{
-    border-radius: 100px;
-}
-.myname{
-    color: rgb(51, 249, 6);
+    justify-content: center;
+    margin-top: 20px;
 }
